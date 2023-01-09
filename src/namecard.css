@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: #282D35;
+    color: white;
+}
+
+.foot {
+    background-color: #0f1113;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.foot--icon{
+    margin:0 auto;
+    width: 50px;
+    height: 50px;
+}
+
+.name{
+    text-align: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.name > button{
+    width: 250px;
+    height: 50px;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.avatar>img{
+    margin:0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.info{
+    padding-left: 100px;
+    padding-right: 100px;
+}
