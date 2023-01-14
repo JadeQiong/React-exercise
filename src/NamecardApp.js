@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './namecard.css';
+import './style/namecard.css';
 import ReactDOM from 'react-dom';
 import Info from './components/Info';
 import Name from './components/Name';

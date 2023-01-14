@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './airbnb.css';
+import './style/airbnb.css'
 import ReactDOM from 'react-dom';
 import Navbar from './airbnb/Navbar';
 import Hero from './airbnb/Hero';

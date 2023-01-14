@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './travel.css';
+import './style/travel.css';
 import ReactDOM from 'react-dom';
 import Navbar from './travel/Navbar';
 import Card from './travel/Card';
