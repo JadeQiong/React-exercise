@@ -8,6 +8,10 @@ body {
     background-color:white ;
 }
 
+section{
+    padding: 20px;
+}
+
 nav{
     height: 70px;
     display: flex;
@@ -40,6 +44,10 @@ section{
 .card{
     width: 175px;
     font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
 }
 
 .card--image{
@@ -57,10 +65,32 @@ section{
     height: 14px;
 }
 
+.card--title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card--badge{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color:white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
 .gray{
     color: lightgray;
 }
 
 .bold{
     font-weight: bold;
+}
+
+.cards-list{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
 }

@@ -22,6 +22,16 @@
       "type":"image/jpg",
       "sizes":"512x512"
     }
+    ,{
+      "src":"b.jpg",
+      "type":"image/jpg",
+      "sizes":"192x192"
+    }
+    ,{
+      "src":"c.jpg",
+      "type":"image/jpg",
+      "sizes":"192x192"
+    }
   ],
   "start_url": ".",
   "display": "standalone",
