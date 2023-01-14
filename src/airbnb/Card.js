@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function Card(props){
+
     var cardText
     if(props.openSpots==0){
         cardText="SOLD OUT"
@@ -12,7 +13,7 @@ export default function Card(props){
     return (
         <div className="card">
             {cardText && <div className="card--badge">{cardText}</div>}
-            <img src={props.img} className="card--image"></img>
+            <img src={props.coverImg} className="card--image"></img>
             <div className="card--stats">
                 <img src="logo192.png" className="card--star"></img>
                 <span> {props.rating} </span>
