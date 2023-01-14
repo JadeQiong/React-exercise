@@ -4,16 +4,17 @@ import ReactDOM from 'react-dom';
 import Navbar from './airbnb/Navbar';
 import Hero from './airbnb/Hero';
 import Card from './airbnb/Card';
-import airbnbData from './airbnbData';
+import airbnbData from './data/airbnbData';
 
 const cards =airbnbData.map(
   function(data){
     return (
     <Card 
-    key={data.id}
-   {...data}
+      key={data.id}
+      {...data}
     />
-  )}
+    )
+  }
 );
 
 function AirbnbApp(){

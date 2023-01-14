@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    color: black;
+}
+
+nav{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px 120px;
+    background-color: #F55A5A;
+}
+
+.nav--icon{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.travel{
+    margin: 20px;
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.travel--img{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.travel--logo{
+    width: 20px;
+    height: 20px;
+}
+
+.travel--right{
+    width: auto;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.travel--gray{
+    font-size: small;
+    color: darkgray;
+    text-decoration: underline;
+}
+
+.travel--badge{
+    display: flex;
+    align-items: center;
+}
+
+.travel--loc{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.travel--des{
+    font-size: small;
+}
+
+.travel--title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+section{
+    padding: 20px;
+}
